@@ -1,0 +1,61 @@
+body {
+  background-image: linear-gradient(80deg, purple 10%, transparent 95%),
+   url("https://cdn.pixabay.com/photo/2012/12/09/00/16/smoke-69124_1280.jpg");
+  color: white;
+  
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  margin: auto;
+}
+
+div {
+  margin: auto;
+  
+  margin-top: 40vh;
+
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  margin-top: -25vh;
+  font-size: clamp(18px, 4vw, 30px);
+  line-height: 1.5rem;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+p {
+  font-family: 'Slabo 27px', serif;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  font-size: clamp(12px, 4vw, 20px);
+  line-height: 1.5rem;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+a {
+  font-family: 'Anton', sans-serif;
+  background-color: white;
+  margin-top: 20vh;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 15%;
+  margin-bottom: 10vh;
+  font-size: clamp(12px, 4vw, 20px);
+  line-height: 1.5rem;
+}
+
+a:hover, a:active {
+  background-color: skyblue;
+  border: 1px solid black;
+}
+
+img {
+  width: 20vw;
+  display: block;
+  margin: auto;
+  padding-top: 30px;
+  clip-path: circle();
+}
